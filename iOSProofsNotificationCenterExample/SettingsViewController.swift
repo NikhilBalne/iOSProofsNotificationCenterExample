@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SettingsViewController.swift
 //  iOSProofsNotificationCenterExample
 //
 //  Created by Nikhil Balne on 26/04/20.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         subscribeToThemeChange()
     }
 
@@ -26,5 +26,20 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func themeChangeButtonTapped(_ sender: Any) {
+        if let button = sender as? UIButton {
+            var color : UIColor!
+            if button.tag == 101 {
+                print("Red")
+                color = .red
+            }else if button.tag == 102 {
+                print("Green")
+                color = .green
+            }else{
+                print("Blue")
+                color = .blue
+            }
+            NotificationCenter.default.post(name: NSNotification.Name("kColorChangeNotification"), object:color)
+        }
+    }
 }
-

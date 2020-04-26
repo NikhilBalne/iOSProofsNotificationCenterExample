@@ -13,6 +13,8 @@
 		CBC15FDB2455F16300F78178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC15FD92455F16300F78178 /* Main.storyboard */; };
 		CBC15FDD2455F16600F78178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC15FDC2455F16600F78178 /* Assets.xcassets */; };
 		CBC15FE02455F16600F78178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC15FDE2455F16600F78178 /* LaunchScreen.storyboard */; };
+		CBC15FE82455F1EE00F78178 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC15FE72455F1EE00F78178 /* HomeViewController.swift */; };
+		CBC15FEA2455F20800F78178 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC15FE92455F20800F78178 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CBC15FDC2455F16600F78178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBC15FDF2455F16600F78178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBC15FE12455F16600F78178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC15FE72455F1EE00F78178 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CBC15FE92455F20800F78178 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				CBC15FD32455F16300F78178 /* AppDelegate.swift */,
 				CBC15FD52455F16300F78178 /* SceneDelegate.swift */,
 				CBC15FD72455F16300F78178 /* ViewController.swift */,
+				CBC15FE72455F1EE00F78178 /* HomeViewController.swift */,
+				CBC15FE92455F20800F78178 /* SettingsViewController.swift */,
 				CBC15FD92455F16300F78178 /* Main.storyboard */,
 				CBC15FDC2455F16600F78178 /* Assets.xcassets */,
 				CBC15FDE2455F16600F78178 /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				CBC15FD82455F16300F78178 /* ViewController.swift in Sources */,
 				CBC15FD42455F16300F78178 /* AppDelegate.swift in Sources */,
 				CBC15FD62455F16300F78178 /* SceneDelegate.swift in Sources */,
+				CBC15FEA2455F20800F78178 /* SettingsViewController.swift in Sources */,
+				CBC15FE82455F1EE00F78178 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
